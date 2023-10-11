@@ -29,7 +29,8 @@ export default class SampleExtenstion extends React.Component<ISampleExtenstionP
     SPComponentLoader.loadCss("https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css");
     SPComponentLoader.loadCss("https://cdn.datatables.net/buttons/2.2.2/css/buttons.dataTables.min.css");
     SPComponentLoader.loadCss("https://abbott.sharepoint.com/sites/GLB-BTS-WLASite/SiteAssets/css/wla-Newstyles.css");
-
+  
+    //adding the custom script
     const script =document.createElement("script");
     //script.src="https://www.cvent.com/g/mobile/javascript/calendar-widget-loader.js?version=469888.0111436111";
     script.src="https://abbott.sharepoint.com/sites/GLB-BTS-WLASite/SiteAssets/JS/calendar-widget-loader.js";
