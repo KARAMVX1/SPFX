@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sample-extenstion-client-side-solution",
+    "id": "843e24db-3fef-4e10-a2e8-b9f234a7d152",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SampleExtenstion description"
+      },
+      "longDescription": {
+        "default": "SampleExtenstion description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sample-extenstion Feature",
+        "description": "The feature that activates elements of the sample-extenstion solution.",
+        "id": "6d57d474-7e6c-4449-b88d-bdf7d029604e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sample-extenstion.sppkg"
+  }
+}
