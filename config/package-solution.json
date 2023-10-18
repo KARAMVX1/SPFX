@@ -35,6 +35,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/sample-extenstion.sppkg"
+    "zippedPackage": "solution/abbott.chr.wla.CEventWebpart.sppkg"
   }
 }
